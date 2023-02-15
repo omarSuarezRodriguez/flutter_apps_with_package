@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/05_barcode_scan_app/main.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/06_pdf_viewer_app/main.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/07_credit_card_concept_app/credit_cards_concept_page.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/08_movies_concept_app/movies_concept_page.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/09_shoes_concept_app/shoes_store_page.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/10_sports_store_concept_app/sports_store_page.dart';
 import '../../src/basics_screen/pages/20_tabs.dart';
 import '../../src/basics_screen/pages/22_bottom_tab_bar.dart';
 import '../../src/basics_screen/pages/23_bottom_navigation_bar.dart';
@@ -246,6 +251,12 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/projects_03'         : (BuildContext context) => MainCommunicationWidgets(),
     '/projects_04'         : (BuildContext context) => MainHeroAnimationsPage(),
     '/projects_05'         : (BuildContext context) => const BarcodeScanExample(),
+    '/projects_06'         : (BuildContext context) => const AndroidMessagesPage(),
+    '/projects_07'         : (BuildContext context) => CreditCardConceptPage(),
+    '/projects_08'         : (BuildContext context) => const MoviesConceptPage(),
+    '/projects_09'         : (BuildContext context) => const ShoesStorePageExample(),
+    '/projects_10'         : (BuildContext context) => const SportsStorePageExample(),
+    
     
     
     

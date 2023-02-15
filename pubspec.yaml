@@ -40,6 +40,9 @@ dependencies:
 
   # Use to project 5
   flutter_barcode_scanner: any
+
+  #Use to project 6
+  # syncfusion_flutter_pdfviewer: any
   
 
 dev_dependencies:
