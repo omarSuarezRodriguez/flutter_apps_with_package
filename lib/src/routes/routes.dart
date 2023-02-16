@@ -5,6 +5,7 @@ import 'package:flutter_apps_with_package/src/projects_screen/projects/07_credit
 import 'package:flutter_apps_with_package/src/projects_screen/projects/08_movies_concept_app/movies_concept_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/09_shoes_concept_app/shoes_store_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/10_sports_store_concept_app/sports_store_page.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/11_travel_concept_app/travel_concept_page.dart';
 import '../../src/basics_screen/pages/20_tabs.dart';
 import '../../src/basics_screen/pages/22_bottom_tab_bar.dart';
 import '../../src/basics_screen/pages/23_bottom_navigation_bar.dart';
@@ -256,6 +257,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/projects_08'         : (BuildContext context) => const MoviesConceptPage(),
     '/projects_09'         : (BuildContext context) => const ShoesStorePageExample(),
     '/projects_10'         : (BuildContext context) => const SportsStorePageExample(),
+    '/projects_11'         : (BuildContext context) => const TravelConceptPageExample(),
     
     
     
