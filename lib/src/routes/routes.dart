@@ -1,11 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/05_barcode_scan_app/main.dart';
-import 'package:flutter_apps_with_package/src/projects_screen/projects/06_pdf_viewer_app/main.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/06_android_messages_app/main.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/07_credit_card_concept_app/credit_cards_concept_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/08_movies_concept_app/movies_concept_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/09_shoes_concept_app/shoes_store_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/10_sports_store_concept_app/sports_store_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/11_travel_concept_app/travel_concept_page.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/12_read_more_app/main.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/13_get_storage_app/main.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/14_neon_button_app/neon_button_main.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/15_menu_exploration_app/main_menu_exploration.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/16_turn_on_the_light_app/turn_on_the_light.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/17_split_widget_example_app/main_split_widget.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/18_tabbar_persistent_example/main_persistent_tabbar.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/19_collapsing_toolbar_example/main_collapsing_toolbar.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/20_communication_widgets_example/main_fetch_data.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/22_rainbow_circular_slider/views/home_screen.dart';
 import '../../src/basics_screen/pages/20_tabs.dart';
 import '../../src/basics_screen/pages/22_bottom_tab_bar.dart';
 import '../../src/basics_screen/pages/23_bottom_navigation_bar.dart';
@@ -258,6 +268,17 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/projects_09'         : (BuildContext context) => const ShoesStorePageExample(),
     '/projects_10'         : (BuildContext context) => const SportsStorePageExample(),
     '/projects_11'         : (BuildContext context) => const TravelConceptPageExample(),
+    '/projects_12'         : (BuildContext context) => const ReadMoreAppExample(),
+    '/projects_13'         : (BuildContext context) => const GetStorageAppExample(),
+    '/projects_14'         : (BuildContext context) => const NeonButonMainExample(),
+    '/projects_15'         : (BuildContext context) => const MainMenuExplorationExample(),
+    '/projects_16'         : (BuildContext context) => const TurnOnTheLightExample(),
+    '/projects_17'         : (BuildContext context) => const MainSplitWidgetExample(),
+    '/projects_18'         : (BuildContext context) => const MainPersistentTabBarExample(),
+    '/projects_19'         : (BuildContext context) => const MainCollapsingToolbarExample(),
+    '/projects_20'         : (BuildContext context) => const MainFetchDataExample(),
+
+    '/projects_22'         : (BuildContext context) => const RainbowCircularSliderExample(),
     
     
     

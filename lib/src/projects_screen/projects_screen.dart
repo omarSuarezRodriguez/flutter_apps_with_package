@@ -11,7 +11,6 @@ class ProjectsScreen extends StatelessWidget {
     return Expanded(
       child: ListView(
         children: <Widget>[
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -25,7 +24,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -39,7 +37,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -53,7 +50,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -67,7 +63,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -81,7 +76,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -95,7 +89,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -109,7 +102,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -123,7 +115,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -137,7 +128,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -151,7 +141,6 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
-
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
@@ -165,15 +154,139 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_12');
+            },
+            child: const ListTile(
+              title: Text('12. Read More App'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_13');
+            },
+            child: const ListTile(
+              title: Text('13. Get Storage App'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_14');
+            },
+            child: const ListTile(
+              title: Text('14. Neon Buton'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_15');
+            },
+            child: const ListTile(
+              title: Text('15. Main Menu Exploration'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_16');
+            },
+            child: const ListTile(
+              title: Text('16. Turn On The Light'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_17');
+            },
+            child: const ListTile(
+              title: Text('17. Main Split Widget'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_18');
+            },
+            child: const ListTile(
+              title: Text('18. Main Persistent TabBar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_19');
+            },
+            child: const ListTile(
+              title: Text('19. Main Collapsing Toolbar'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_20');
+            },
+            child: const ListTile(
+              title: Text('20. Main Fetch Data'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/projects_22');
+            },
+            child: const ListTile(
+              title: Text('22. Rainbow Circular Slider'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
           
-
-
-
-
-
         ],
-        
       ),
     );
   }

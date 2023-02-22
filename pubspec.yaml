@@ -41,9 +41,19 @@ dependencies:
   # Use to project 5
   flutter_barcode_scanner: any
 
-  #Use to project 6
-  # syncfusion_flutter_pdfviewer: any
-  
+  # Use to project 12
+  readmore: ^2.2.0
+
+  # Use to project 13
+  get:
+  get_storage:
+
+  # Use to project 18
+  http:
+
+
+
+
 
 dev_dependencies:
   flutter_test:
