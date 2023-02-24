@@ -15,6 +15,7 @@ import 'package:flutter_apps_with_package/src/projects_screen/projects/17_split_
 import 'package:flutter_apps_with_package/src/projects_screen/projects/18_tabbar_persistent_example/main_persistent_tabbar.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/19_collapsing_toolbar_example/main_collapsing_toolbar.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/20_communication_widgets_example/main_fetch_data.dart';
+import 'package:flutter_apps_with_package/src/projects_screen/projects/21_twitter_profile_example/twitter_profile_page.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/22_rainbow_circular_slider/views/home_screen.dart';
 import '../../src/basics_screen/pages/20_tabs.dart';
 import '../../src/basics_screen/pages/22_bottom_tab_bar.dart';
@@ -277,8 +278,10 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/projects_18'         : (BuildContext context) => const MainPersistentTabBarExample(),
     '/projects_19'         : (BuildContext context) => const MainCollapsingToolbarExample(),
     '/projects_20'         : (BuildContext context) => const MainFetchDataExample(),
-
+    '/projects_21'         : (BuildContext context) => const TwitterProfilePageExample(),
     '/projects_22'         : (BuildContext context) => const RainbowCircularSliderExample(),
+    // '/projects_23'         : (BuildContext context) => const MainSplitImageExample(),
+    
     
     
     

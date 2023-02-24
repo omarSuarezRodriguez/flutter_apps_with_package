@@ -275,6 +275,20 @@ class ProjectsScreen extends StatelessWidget {
           const SizedBox(height: 7),
           InkWell(
             onTap: () {
+              Navigator.pushNamed(context, '/projects_21');
+            },
+            child: const ListTile(
+              title: Text('21. Twitter Profile Page'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
               Navigator.pushNamed(context, '/projects_22');
             },
             child: const ListTile(
@@ -285,6 +299,20 @@ class ProjectsScreen extends StatelessWidget {
               ),
             ),
           ),
+
+          // const SizedBox(height: 7),
+          // InkWell(
+          //   onTap: () {
+          //     Navigator.pushNamed(context, '/projects_23');
+          //   },
+          //   child: const ListTile(
+          //     title: Text('23. Split Image'),
+          //     leading: Icon(
+          //       Icons.data_object_rounded,
+          //       color: Colors.lime,
+          //     ),
+          //   ),
+          // ),
           
         ],
       ),

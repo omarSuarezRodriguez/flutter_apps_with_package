@@ -31,6 +31,7 @@ class LImage extends StatelessWidget {
 
             Text("Image from network"),
             // Image.asset("image/logo.png"),
+            // NetworkImage('https://miro.medium.com/max/3200/1*mMJ3IvaAuMAmqjtyistCog.png'),
             SizedBox(height: 20.0),
 
             Text("Image from web"),
