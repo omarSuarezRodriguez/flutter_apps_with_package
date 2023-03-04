@@ -214,7 +214,6 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_80'           : (BuildContext context) => const AnimatedListExample(),
     '/basics_81'           : (BuildContext context) => const LDropDownButtonExample(),
     '/basics_82'           : (BuildContext context) => const CardsExamplePage(),
-    //
     
     
     
