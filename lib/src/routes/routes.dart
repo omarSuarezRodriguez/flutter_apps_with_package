@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/81_dropdown_button_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/82_cards_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/84_spacer_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/85_stepper_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/86_rotated_box_example.dart';
 
 import 'package:flutter_apps_with_package/src/projects_screen/projects/05_barcode_scan_app/main.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/06_android_messages_app/main.dart';
@@ -217,6 +220,9 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_81'           : (BuildContext context) => const LDropDownButtonExample(),
     '/basics_82'           : (BuildContext context) => const CardsExamplePage(),
     '/basics_83'           : (BuildContext context) => const LChipExample(),
+    '/basics_84'           : (BuildContext context) => const LSpacerExample(),
+    '/basics_85'           : (BuildContext context) => const LStepperExample(),
+    '/basics_86'           : (BuildContext context) => const LRotatedBoxExample(),
     
     
     
