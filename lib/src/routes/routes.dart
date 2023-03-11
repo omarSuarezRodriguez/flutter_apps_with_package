@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/81_dropdown_button_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/82_cards_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_example.dart';
 
 import 'package:flutter_apps_with_package/src/projects_screen/projects/05_barcode_scan_app/main.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/06_android_messages_app/main.dart';
@@ -215,6 +216,7 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_80'           : (BuildContext context) => const AnimatedListExample(),
     '/basics_81'           : (BuildContext context) => const LDropDownButtonExample(),
     '/basics_82'           : (BuildContext context) => const CardsExamplePage(),
+    '/basics_83'           : (BuildContext context) => const LChipExample(),
     
     
     
