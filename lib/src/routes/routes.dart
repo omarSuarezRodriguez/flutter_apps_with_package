@@ -5,6 +5,9 @@ import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_examp
 import 'package:flutter_apps_with_package/src/basics_screen/pages/84_spacer_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/85_stepper_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/86_rotated_box_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/87_future_builder_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/88_stream_widget_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/89_tooltip_example.dart';
 
 import 'package:flutter_apps_with_package/src/projects_screen/projects/05_barcode_scan_app/main.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/06_android_messages_app/main.dart';
@@ -223,6 +226,10 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_84'           : (BuildContext context) => const LSpacerExample(),
     '/basics_85'           : (BuildContext context) => const LStepperExample(),
     '/basics_86'           : (BuildContext context) => const LRotatedBoxExample(),
+    '/basics_87'           : (BuildContext context) => const LFutureBuilderExample(),
+    '/basics_88'           : (BuildContext context) => const LStreamBuilderExample(),
+    '/basics_89'           : (BuildContext context) => const LTooltipExample(),
+    
     
     
     

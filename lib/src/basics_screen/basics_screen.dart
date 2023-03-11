@@ -1178,6 +1178,48 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_87');
+            },
+            child: const ListTile(
+              title: Text('87. Future Builder Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_88');
+            },
+            child: const ListTile(
+              title: Text('88. Stream Builder Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_89');
+            },
+            child: const ListTile(
+              title: Text('89. Tooltip Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
           
 
 
