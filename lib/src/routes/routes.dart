@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/100_media_query_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/81_dropdown_button_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/82_cards_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_example.dart';
@@ -10,6 +11,14 @@ import 'package:flutter_apps_with_package/src/basics_screen/pages/88_stream_widg
 import 'package:flutter_apps_with_package/src/basics_screen/pages/89_tooltip_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/90_fractionally_sized_box_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/91_single_child_scrollview_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/92_page_view_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/93_aspect_radio_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/94_absorb_pointer_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/95_ignore_pointer_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/96_indexed%20_stack_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/97_safe_area_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/98_padding_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/99_color_filtered_example.dart';
 
 import 'package:flutter_apps_with_package/src/projects_screen/projects/05_barcode_scan_app/main.dart';
 import 'package:flutter_apps_with_package/src/projects_screen/projects/06_android_messages_app/main.dart';
@@ -233,7 +242,15 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_89'           : (BuildContext context) => const LTooltipExample(),
     '/basics_90'           : (BuildContext context) => const LFractionallySizedBoxExample(),
     '/basics_91'           : (BuildContext context) => const LSingleChildScrollViewExample(),
-    
+    '/basics_92'           : (BuildContext context) => const LPageViewExample(),
+    '/basics_93'           : (BuildContext context) => const LAspectRatioExample(),
+    '/basics_94'           : (BuildContext context) => const LAbsorbPointerExample(),
+    '/basics_95'           : (BuildContext context) => const LIgnorePointerExample(),
+    '/basics_96'           : (BuildContext context) => const LIndexedStackExample(),
+    '/basics_97'           : (BuildContext context) => const LSafeAreaExample(),
+    '/basics_98'           : (BuildContext context) => const LPaddingExample(),
+    '/basics_99'           : (BuildContext context) => const LColorFilteredExample(),
+    '/basics_100'           : (BuildContext context) => const LMediaQueryExample(),
     
     
     

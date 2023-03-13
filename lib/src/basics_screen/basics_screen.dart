@@ -1248,6 +1248,132 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_92');
+            },
+            child: const ListTile(
+              title: Text('92. Page View'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_93');
+            },
+            child: const ListTile(
+              title: Text('93. Aspect Radio '),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_94');
+            },
+            child: const ListTile(
+              title: Text('94. Absorb Pointer Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_95');
+            },
+            child: const ListTile(
+              title: Text('95. Ignore Pointer'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_96');
+            },
+            child: const ListTile(
+              title: Text('96. Indexed Stack'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_97');
+            },
+            child: const ListTile(
+              title: Text('97. Safe Area'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_98');
+            },
+            child: const ListTile(
+              title: Text('98. Padding Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_99');
+            },
+            child: const ListTile(
+              title: Text('99. Color Filtered'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_100');
+            },
+            child: const ListTile(
+              title: Text('100. Media Query Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
           
 
 
