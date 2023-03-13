@@ -1430,6 +1430,34 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_105');
+            },
+            child: const ListTile(
+              title: Text('105. Clip Path Example'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_106');
+            },
+            child: const ListTile(
+              title: Text('106. Animated Positioned'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
           
 
 
