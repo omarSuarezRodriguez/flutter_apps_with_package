@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/100_media_query_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/101_builder_snackbar_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/102_value_listenable_builder_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/103_tween_animation_builder_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/81_dropdown_button_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/82_cards_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_example.dart';
@@ -250,7 +253,11 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_97'           : (BuildContext context) => const LSafeAreaExample(),
     '/basics_98'           : (BuildContext context) => const LPaddingExample(),
     '/basics_99'           : (BuildContext context) => const LColorFilteredExample(),
-    '/basics_100'           : (BuildContext context) => const LMediaQueryExample(),
+    '/basics_100'          : (BuildContext context) => const LMediaQueryExample(),
+    '/basics_101'          : (BuildContext context) => const LBuilderSnackbarExample(),
+    '/basics_102'          : (BuildContext context) => const LValueListenableBuilderExample(),
+    '/basics_103'          : (BuildContext context) => const LTweenAnimationBuilderExample(),
+    
     
     
     
