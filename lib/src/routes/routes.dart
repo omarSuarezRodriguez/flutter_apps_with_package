@@ -6,6 +6,8 @@ import 'package:flutter_apps_with_package/src/basics_screen/pages/103_tween_anim
 import 'package:flutter_apps_with_package/src/basics_screen/pages/104_layout_builder_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/105_clip_path_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/106_animated_positioned_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/107_align_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/108_decorated_box_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/81_dropdown_button_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/82_cards_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_example.dart';
@@ -263,6 +265,8 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_104'          : (BuildContext context) => const LLayoutBuilderExample(),
     '/basics_105'          : (BuildContext context) => const LClipPathExample(),
     '/basics_106'          : (BuildContext context) => const LAnimatedPositionedExample(),
+    '/basics_107'          : (BuildContext context) => const LAlignExample(),
+    '/basics_108'          : (BuildContext context) => const LDecoratedBoxExample(),
     
     
     
