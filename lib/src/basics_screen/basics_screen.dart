@@ -1472,19 +1472,19 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
-          // const SizedBox(height: 7),
-          // InkWell(
-          //   onTap: () {
-          //     Navigator.pushNamed(context, '/basics_108');
-          //   },
-          //   child: const ListTile(
-          //     title: Text('108. Decorated Box'),
-          //     leading: Icon(
-          //       Icons.data_object_rounded,
-          //       color: Colors.lime,
-          //     ),
-          //   ),
-          // ),
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_108');
+            },
+            child: const ListTile(
+              title: Text('108. Radio List Tile'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
 
           const SizedBox(height: 7),
           InkWell(
@@ -1507,6 +1507,20 @@ class BasicsScreen extends StatelessWidget {
             },
             child: const ListTile(
               title: Text('110. Switch List Tile'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_111');
+            },
+            child: const ListTile(
+              title: Text('111. CheckBox List Tile'),
               leading: Icon(
                 Icons.data_object_rounded,
                 color: Colors.lime,
