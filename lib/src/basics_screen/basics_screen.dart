@@ -1528,6 +1528,34 @@ class BasicsScreen extends StatelessWidget {
             ),
           ),
 
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_112');
+            },
+            child: const ListTile(
+              title: Text('112. Action Chip'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
+          const SizedBox(height: 7),
+          InkWell(
+            onTap: () {
+              Navigator.pushNamed(context, '/basics_113');
+            },
+            child: const ListTile(
+              title: Text('113. Choice Chip'),
+              leading: Icon(
+                Icons.data_object_rounded,
+                color: Colors.lime,
+              ),
+            ),
+          ),
+
           
 
 
