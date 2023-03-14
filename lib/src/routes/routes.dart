@@ -14,6 +14,8 @@ import 'package:flutter_apps_with_package/src/basics_screen/pages/110_switch_lis
 import 'package:flutter_apps_with_package/src/basics_screen/pages/111_check_box_list_tile_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/112_action_chip_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/113_choice_chip_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/114_input_chip_example.dart';
+import 'package:flutter_apps_with_package/src/basics_screen/pages/115_filter_chip_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/81_dropdown_button_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/82_cards_example.dart';
 import 'package:flutter_apps_with_package/src/basics_screen/pages/83_chips_example.dart';
@@ -278,6 +280,9 @@ Map<String, WidgetBuilder> getApplicationRoutes() {
     '/basics_111'          : (BuildContext context) => const LCheckboxListTileExample(),
     '/basics_112'          : (BuildContext context) => const LActionChipExample(),
     '/basics_113'          : (BuildContext context) => const LChoiceChipExample(),
+    '/basics_114'          : (BuildContext context) => const LInputChipExample(),
+    '/basics_115'          : (BuildContext context) => const LFilterChipExample(),
+    
     
     
     
